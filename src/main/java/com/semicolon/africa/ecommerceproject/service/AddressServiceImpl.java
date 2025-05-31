@@ -1,4 +1,7 @@
 package com.semicolon.africa.ecommerceproject.service;
 
-public class AddressServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class AddressServiceImpl implements AddressService {
 }

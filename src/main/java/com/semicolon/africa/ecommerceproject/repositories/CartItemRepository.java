@@ -1,4 +1,9 @@
 package com.semicolon.africa.ecommerceproject.repositories;
 
-public interface CartItemRepository {
+import com.semicolon.africa.ecommerceproject.models.CartItem;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CartItemRepository extends JpaRepository<CartItem, Integer> {
 }

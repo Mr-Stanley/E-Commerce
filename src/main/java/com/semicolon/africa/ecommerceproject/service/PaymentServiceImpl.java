@@ -1,4 +1,7 @@
 package com.semicolon.africa.ecommerceproject.service;
 
-public class PaymentServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class PaymentServiceImpl implements PaymentService {
 }

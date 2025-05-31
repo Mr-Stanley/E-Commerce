@@ -1,4 +1,7 @@
 package com.semicolon.africa.ecommerceproject.service;
 
-public class NotificationServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class NotificationServiceImpl implements NotificationService {
 }

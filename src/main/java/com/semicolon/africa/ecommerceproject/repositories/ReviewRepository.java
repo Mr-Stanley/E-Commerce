@@ -1,4 +1,9 @@
 package com.semicolon.africa.ecommerceproject.repositories;
 
-public interface ReviewRepository {
+import com.semicolon.africa.ecommerceproject.models.Review;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ReviewRepository extends JpaRepository<Review, Integer> {
 }

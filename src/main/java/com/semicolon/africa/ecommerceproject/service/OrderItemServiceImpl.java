@@ -1,4 +1,7 @@
 package com.semicolon.africa.ecommerceproject.service;
 
-public class OrderItemServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class OrderItemServiceImpl implements OrderItemService {
 }

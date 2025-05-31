@@ -1,4 +1,7 @@
 package com.semicolon.africa.ecommerceproject.service;
 
-public class CategoryServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class CategoryServiceImpl implements CategoryService {
 }
